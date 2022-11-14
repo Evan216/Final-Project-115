@@ -1,0 +1,44 @@
+body
+{
+    background-image: url(pics/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#snakey
+{
+    position:fixed;
+    top: 20%;
+    right: 37%;
+}
+
+.cat
+{
+     margin-top: 20%;
+    margin-left: 41%;
+    justify-self: center;
+display: inline-block;
+}
+.btn3
+{
+    margin-top: 0%;
+    margin-left:44%;
+}
+#sig
+{
+    margin-bottom: 20px;
+    height: 30px;
+    text-align: center;
+    border: ridge black;
+}
+#snakey {
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
